@@ -1,0 +1,15 @@
+.exercise-card {
+  text-align: center;
+}
+
+.exercise-video {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.exercise-card h4 {
+  color: #6a38c2;
+  margin-top: 10px;
+}

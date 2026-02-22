@@ -1,0 +1,99 @@
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #e6e6e6;
+  border-bottom: 2px solid #d3c7f5;
+  font-family: poppins, sans-serif;
+  height: 100px;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  grid-template-columns: 1fr auto 1fr; /* logo | links | buttons */
+}
+
+.logo-img {
+  height: 70px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  padding: 8px 14px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #a88edb;
+}
+
+.primary-tn {
+  background: #6c4bd6;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+  border: 1px solid #6c4bd6;
+}
+
+.primary-tn:hover {
+  background: white;
+  color: #6c4bd6;
+}
+
+.primary-btn {
+  background: #6c4bd6;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #786a91;
+  color: #161517;
+}
+
+/* Avatar circle shown when logged in */
+.avatar-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5e36b0; 
+  color: #000; 
+  font-weight: 700;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 9999px; /* pill/circle */
+  min-width: 40px;
+  min-height: 40px;
+  line-height: 1;
+  white-space: nowrap;
+} 

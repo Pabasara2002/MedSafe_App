@@ -1,0 +1,20 @@
+.sound-card {
+  text-align: center;
+}
+
+.sound-image {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.audio-player {
+  margin-top: 10px;
+  width: 320px;
+}
+
+.sound-card h4 {
+  color: #6a38c2;
+  margin-top: 8px;
+}
