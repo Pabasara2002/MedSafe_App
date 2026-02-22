@@ -1,0 +1,74 @@
+.medications-container {
+  padding: 40px 100px;
+}
+
+.doctor-form {
+  background: #eaeaea;
+  padding: 30px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.doctor-form button {
+  grid-column: span 2;
+  width: 150px;
+  padding: 10px;
+  background: #6a38c2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.doctor-form button:hover {
+  background: white;
+  transition: background 0.3s ease;
+  color: #6a38c2;
+  border: 1px solid #6a38c2;
+}
+
+.doctor-select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.vitals-box {
+  background: #eaeaea;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.vitals-box button {
+  margin-top: 40px;
+  padding: 15px 40px;
+  background: #6a38c2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.vitals-box button:hover {
+  background: white;
+  transition: background 0.3s ease;
+  color: #6a38c2;
+  border: 1px solid #6a38c2;
+}
+
+.exercise-section {
+  margin-top: 60px;
+}
+
+.sound-section {
+  margin-top: 100px;   /* Creates clear separation */
+}

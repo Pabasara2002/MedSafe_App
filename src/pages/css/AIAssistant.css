@@ -1,0 +1,48 @@
+.assistant-container {
+  padding: 40px 100px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  background: #eaeaea;
+  border-radius: 15px;
+  padding: 30px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-message {
+  background: #f4f4f4;
+  padding: 15px 20px;
+  border-radius: 20px;
+  width: fit-content;
+  color: #6a38c2;
+}
+
+.input-area {
+  display: flex;
+  gap: 15px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.input-area button {
+  background: #6a38c2;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}

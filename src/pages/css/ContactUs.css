@@ -1,0 +1,82 @@
+/* CONTACT PAGE */
+
+.contact-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 5%;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background: #e6e6e6;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  min-height: 140px;
+}
+
+.large-textarea {
+  width: 100%;
+  height: 200px;   /* Bigger space */
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #6c3ec1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #5a32a6;
+}

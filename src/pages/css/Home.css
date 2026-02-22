@@ -1,0 +1,234 @@
+/* GLOBAL FONT */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #6c3ec1;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.btn-group {
+  margin-top: 20px;
+  display: inline-flex;   /* important for connected look */
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch;   /* makes buttons same height */
+}
+
+/* GET STARTED BUTTON */
+.btn-primary {
+  background: #6c3fc5;
+  color: white;
+  border: 2px solid #6c3fc5;
+  padding: 0px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 50px;   /* ensures consistent height */
+}
+
+/* HOVER EFFECT */
+.btn-primary:hover {
+  background: white;
+  color: #6c3fc5;
+}
+
+/* CONSULT BUTTON */
+.btn-outline {
+  background: white;
+  color: #6c3fc5;
+  border: 2px solid #6c3fc5;
+  padding: 10px 26px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 50px;   /* ensures consistent height */
+  margin-top: 20px;
+}
+
+/* Optional hover */
+.btn-outline:hover {
+  background: #6c3fc5;
+  color: white;
+}
+
+/* ========================= */
+/* CORE SERVICES */
+/* ========================= */
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 280px;
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  border-color: #6c3ec1;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e36b0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* ========================= */
+/* WHY CHOOSE SECTION */
+/* ========================= */
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.why-card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid #e4e4e4;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.why-card h3 {
+  font-size: 18px;
+  color: #6c3ec1;
+  margin-bottom: 10px;
+}
+
+.why-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border-color: #6c3ec1;
+}
+
+/* ========================= */
+/* TRUSTED SECTION */
+/* ========================= */
+
+.center {
+  text-align: center;
+}
+
+.purple {
+  color: #6c3ec1;
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  text-align: center;
+  min-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+
+.stat-box h1 {
+  font-size: 48px;
+  margin: 0;
+  color: black;   /* purple animated numbers */
+  font-weight: 700;
+}
+
+.stat-box p {
+  margin-top: 8px;
+  color: #666;
+}
+
+/* ========================= */
+/* RESPONSIVE BREAKPOINTS */
+/* ========================= */
+
+@media (max-width: 1000px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    gap: 40px;
+  }
+}
